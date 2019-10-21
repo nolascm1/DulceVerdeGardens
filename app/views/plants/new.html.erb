@@ -1,0 +1,9 @@
+<div class="booyah-box col-10 offset-1">
+<h1>Share Your Garden</h1>
+<%= simple_form_for @plant do |f| %>
+ <%= f.input :name %>
+ <%= f.input :zipcode %>
+ <br />
+ <%= f.submit 'Share', class: 'btn btn-primary' %>
+ <% end %>
+</div>
